@@ -1,0 +1,587 @@
+@charset "UTF-8";
+
+body {
+	background-color:#f5f3ef;
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	}
+	
+#container {
+	width:960px;
+	margin:auto;
+	}
+	
+h1 {
+	padding-top:10px;
+	padding-bottom:10px;
+	}
+	
+a {
+	text-decoration:none;
+	}
+	
+.page a:link{
+	color:#FF6600;
+	}
+
+.page a:visited{
+	color:#FF6600;
+	}	
+	
+.page {
+
+	border-bottom:5px solid #F60;
+	}
+	
+	
+#nav ul {
+	margin-top:20px;
+	margin-bottom:0px;
+	overflow:hidden;
+	border-left:1px solid #947235;
+	}
+
+	
+#nav ul li{
+	color: #5C4621; 
+	padding-top:10px;
+	font-weight:bold;
+	display:block;
+	width:190px;
+	height:30px;
+	float: left;
+	text-align: center;
+	font-size:18px;
+	border-right:1px solid #947235;
+
+	}
+	
+#nav ul li .page a{
+	color: #FF6600; 
+	}
+
+#nav ul li .page2 a{
+	color: #5C4621; 
+	}
+	.page2 a:link{
+	color: #5C4621;
+	}
+
+.page2 a:visited{
+	color: #5C4621;
+	}
+	
+#nav ul li a:hover {
+	color: #F60;
+	}
+	
+#boximg{
+	overflow:hidden;
+	margin-bottom:-5px;
+	margin-left:0px;
+	margin-top:50px;
+	}
+	
+/*	flexslider　*/
+	
+.js-box {
+	float:left;
+	width:510px;
+	height:330px;
+	}
+	
+/*	flexslider　*/
+
+#boxA  img{
+	float:left;
+	background-color:#F00;
+	}
+	
+#boxB {	
+	margin-top:0px;
+	margin-right:10px;
+	float:right;
+/*	background-color:#FFF;*/
+	}
+	
+#boxB .img2{
+	margin-top:5px;
+	}
+	
+	
+a:hover img.linking{
+	opacity:0.6;
+	}
+	
+h2 {
+	clear:both;
+	font-size:21px;
+	color:#666;
+	border-bottom:2px solid #666;
+	padding:30px 20px 10px;
+	font-weight:bold;
+	}
+
+#news table{
+	color: #5C4621;
+	text-align: left;
+	width:960px;
+	}
+
+#news tr{
+	border-bottom:1px dotted #5c4621;
+	}
+	
+#news th{
+	padding:20px;
+	}
+	
+#news td{
+	text-align: left;
+	padding:20px;
+	line-height:normal;
+	}
+	
+#news p{
+	color: #FFF;
+	width:350px;
+	margin-top:50px;
+	margin-bottom:50px;
+	padding:15px;
+	background-color:#5c4621;
+	border-radius:10px;
+	text-align:center;
+	font-weight:bold;
+	margin-left:304px;
+	box-shadow: 0 7px 5px 0 #AAA;
+	position: relative;
+	}
+
+#news p a{
+	color:#FFF;
+	display:block;
+	width:350px;
+	
+	}
+	
+#news p:hover{
+	position: relative;
+	margin-top: 55px;
+	margin-bottom:45px;
+	box-shadow: 0 3px 5px 0  #AAA;
+	color:#FF6600;
+	}
+	
+#news p a:hover{
+	color:#FFFFFF;
+	}
+	
+#footer {
+	color: #FFF;
+	background-color:#5c4621;
+	}	
+
+#footer ul{
+	text-align:center;
+	padding:20px;
+	
+	}
+
+#footer ul li{
+	display: inline;
+	font-size:14px;
+	padding:0px 20px;
+	border-right:1px solid #FFF;
+	}
+	
+#footer ul li:first-child{
+	border-left:1px solid #FFF;
+	}
+	
+#footer ul li a{
+	color:#FFF;
+	}
+
+#footer p {
+
+	font-size:12px;
+	padding-top:20px;
+	padding-left:20px;
+	line-height:normal;
+	}
+	
+#footer img{
+	margin-left:700px;
+	}
+
+footer {
+	clear:both;
+	}
+	
+p {
+	line-height:normal;
+	}
+	
+/* ↓↓↓shop.htmlの内容のcss↓↓↓ */
+
+.box1 {
+	font-size:14px;
+	margin:30px;
+	color:#5C4621;
+	width:480px;
+	float:left;
+	}
+
+.box2 {
+	font-size:14px;
+	float:left;
+	margin:30px;
+	}
+	
+/* ↓↓↓menu.html内容のcss↓↓↓ */
+
+h3 {
+	font-size:20px;
+	color:#5c4621;
+	padding:15px 20px;
+	margin:20px 0px;
+	border-left:10px solid #5C4621;
+	clear:both;
+	}
+
+#sub_menu {
+	float:right;
+/*	background-color:#F00;*/
+	overflow:hidden;
+	width:220px;
+	text-align: left;
+	margin-top:30px;
+	font-size:14px
+	}
+	
+#menu_nav li {
+	padding:15px 15px 15px 50px;
+	color:#5C4621;
+	border-bottom:1px solid #5C4621;
+	background-image:url(../images/menu/p3_S.png);
+	background-repeat:no-repeat;
+	background-position:35px 16px;
+	}
+	
+#menu_nav li:first-child{
+	border-bottom:1px solid #5C4621;
+	background-image: none;
+	border-bottom:2px solid #5C4621;
+	font-weight:bold;
+	margin-left:-2.5em;
+	}
+	
+#menu_nav a{
+	color:#5C4621;
+	}
+
+#osusume1  {
+	float:left;
+	width:700px;
+	margin-bottom:20px;
+	}
+	
+.food_box1 img{
+	float:left;
+	}
+	
+.food_box2 {
+	float:left;
+	background-color:#FFF;
+	color: #5C4621;
+	width:389px;
+	height:316px;
+	font-size:14px;
+	}
+	
+.food_box2_text1{
+	padding:60px 20px 0px 20px;
+	}
+	
+.food_box2_text2{
+	text-align:right;
+	font-size:16px;
+	font-weight:bold;
+	padding:30px 20px 0px 0px;
+	}
+	
+.teiban{
+	overflow:hidden;
+	}
+	
+.teiban table{
+	width:340px;
+	}
+
+.menu1{
+	float:left;
+	}
+	
+.menu2{
+	float:left;
+	margin-left:20px;
+	}
+	
+table th{
+	padding:20px 0px 20px 0px;
+	color: #5C4621;
+	border-bottom:1px solid #5C4621;
+	font-size:14px;
+	text-align:left;
+	}
+	
+table td{
+	color: #5C4621;
+	border-bottom:1px solid #5C4621;
+	font-size:14px;
+	text-align:right;
+	}
+	
+#osusume2{
+	font-size:14px;
+	color: #5C4621;
+	margin-bottom:20px;
+	overflow:hidden;
+	}
+	
+#osusume2 p {
+	background-color:#FFF;
+	padding:10px;
+	}
+	
+.nedan {
+	text-align:right;
+	}
+	
+.drink1{
+	float:left;
+	}
+	
+.drink2{
+	float:left;
+	margin-left:20px;
+	}
+	
+.drink3{
+	float:left;
+	margin-left:20px;
+	}
+	
+#osusume3{
+	font-size:14px;
+	color: #5C4621;
+	margin-bottom:20px;
+	overflow:hidden;
+	}
+	
+#osusume3 p {
+	background-color:#FFF;
+	padding:10px;
+	}
+	
+.dessert1{
+	float:left;
+	}
+	
+.dessert2{
+	float:left;
+	margin-left:20px;
+	}
+	
+.dessert3{
+	float:left;
+	margin-left:20px;
+	}
+	
+#pointcard{
+	margin-bottom:50px;
+	overflow:hidden;
+	}
+
+#pointcard img {
+	float:left;
+	}
+	
+#pointcard p {
+	font-size:14px;
+	padding-left:30px;
+	float: left;
+	color :#5C4621;
+	}
+	
+.modoru {
+	width:100px;
+	padding:10px;
+	margin:0px 0px 5px 840px;
+	background-color:#5C4621;
+	color:#FFF;
+	border-radius:10px;
+	}
+	
+.modoru a{
+	color: #FFF;
+	}
+	
+a:hover .banner{
+	opacity:0.6;
+	}
+	
+.banner {
+	float:right;
+	overflow:hidden;
+	width:220px;
+	margin-top:50px;
+	}
+	
+/* ↓↓↓coffee.htmlの内容のcss↓↓↓ */
+
+.p4_text strong{
+	display:block;
+	font-weight:bold;
+	margin-bottom:5px;
+	}
+
+.p4_text{
+	width:464px;
+	float:left;
+	font-size:14px;
+	color:#5C4621;
+	margin:50px 0px 50px 20px;
+	}
+	
+.p4_img{
+	float: left;
+	margin:50px 0px 50px 80px;
+	}
+
+
+#coffee{
+	clear:both;
+	width:920px;
+	margin:0px 20px 100px 20px;
+	border:1px solid #666;
+	}
+
+#coffee th {
+	text-align: center;
+	background-color:#CFBEAD;
+	border:1px solid #666;
+	padding:20px;
+	}
+
+#coffee td {
+	line-height:normal;
+	text-align:left;
+	border:1px solid #666;
+	padding:20px;
+	}
+	
+.p4_hinsyu{
+	background-color:#FDF9ED;
+	}
+
+/* ↓↓↓accessの内容のcss↓↓↓ */
+
+#access{
+	overflow:hidden;
+	}
+
+#access img {
+	margin :40px;
+	float:right;
+	text-align:center;
+	}
+	
+#access table {
+	margin-top:40px;
+	}
+	
+#access td {
+	padding:15px;
+	text-align:left;
+	line-height:normal;
+	}
+	
+#map {
+	overflow:hidden;
+	margin-bottom:30px;
+	}
+
+.map1 {
+	margin-left:120px;
+	float:left;
+	}
+	
+.map2 {
+	margin-right:120px;
+	float: right;
+	}
+	
+/* ↓↓↓orderの内容のcss↓↓↓ */
+
+
+h4 {
+	color:#59461F;
+	font-size:20px;
+	border-bottom:1px dotted #666;
+	margin: 20px 0px;
+	padding: 10px 0px;
+	}
+
+.order_img{
+	margin:50px 0px 0px 0px;
+	}
+	
+.order_boxA {
+	width: 480px;
+	float:left;
+	}
+	
+.order_boxB {
+	float:right;
+	margin:20px 80px 0px 0px;
+	}
+	
+#order_container p{
+	padding:20px;
+	font-size:14px;
+	color: #5C4621;
+	line-height:normal;
+	}
+	
+#order_container p strong{
+	font-weight:bold;
+	}
+	
+#order_container dl{
+	padding:15px;
+	font-size:14px;
+	color: #5C4621;
+	line-height:normal;
+	}
+
+#order_container dt{
+	margin:5px 0px;
+	font-weight:bold;
+	}
+	
+#order_container table{
+	margin-bottom:50px;
+	border:1px solid #5C4621;
+	}
+	
+#order_container th{
+	border-right:1px solid #5C4621;
+	padding:20px;
+	background-color:#CFBEAD;
+	font-weight:bold;
+	}
+	
+#order_container td{
+	text-align:left;
+	padding:20px;
+	}
